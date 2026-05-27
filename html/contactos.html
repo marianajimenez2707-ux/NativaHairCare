@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,51 @@
 
 <body>
 
-<header>
-    <div>
-        <img id="logo" src="../imagenes/logo.jpg">
+    <header>
+        <div>
+            <img id="logo" src="../imagenes/logo.jpg">
+        </div>
+
+        <div>
+            <h1>Nativa Hair Care</h1>
+        </div>
+
+        <div>
+            <a href="index.html">Página Principal</a>
+            <a href="../html/catalogo.html">Cátalogo</a>
+            <a href="../html/contactos.html">Contactos</a>
+        </div>
+    </header>
+
+    <div class="contact-form">
+        <span class="heading">Contactanos</span>
+
+        <form>
+            <label for="name">Nombre completo:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
     </div>
+    <footer class="pie">
+        <div id="redes"> <a class="footer-item"
+                href="https://www.instagram.com/nativa.hair.care?igsh=MTh2eTEwdndkc2lrdQ=="><img
+                    src="../imagenes/instagramsinfondo.png" /> @nativa.hair.care</a>
+            <a class="footer-item" href="https://www.tiktok.com/@nativa.hair.care?_r=1&_t=ZS-96icawMxYPt"><img
+                    src="../imagenes/tiktoksinfondo.png" /> @nativa.hair.care</a>
+        </div>
+        <div id="copywright">
+            <p class="footer-item">© 2024 Nativa Hair Care. Todos los derechos reservados.</p>
+        </div>
 
-    <div>
-        <h1>Nativa Hair Care</h1>
-    </div>
-
-    <div>
-        <a href="index.html">Pagina Principal</a>
-        <a href="../html/catalogo.html">Catalogo</a>
-        <a href="../html/contactos.html">Contactos</a>
-    </div>
-</header>
-
-<div class="contact-form">
-    <span class="heading">Contactanos</span>
-
-    <form>
-        <label for="name">Nombre completo:</label>
-        <input type="text" id="name" required>
-
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-</div>
-<footer>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>

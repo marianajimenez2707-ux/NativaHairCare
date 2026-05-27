@@ -13,6 +13,28 @@ body {
     min-height: 100vh;
 }
 
+header{
+    width: 100vw;
+    height: 17vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    height: 110px;
+    border-radius: 5%;
+}
+
+header h1{
+    font-size: 30pt;
+    font-family: "Barriecito", system-ui;
+    color: rgb(77, 32, 24);
+}
+
+
 .contact-form {
     background-color: #C97C5D;
     padding: 60px;

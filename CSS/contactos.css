@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rouge+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contact-form {
+    background-color: #C97C5D;
+    padding: 60px;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.contact-form label {
+    color: black;
+}
+
+.contact-form .heading {
+    font-size: 50px;
+    color:#582630;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: flex;  
+    justify-content: center;
+    font-family: "Rouge Script", cursive;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+    width: 380px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #C97C5D;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #EED7C5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.productos img{
+    width: 300px;
+}
+
+.informacionGeneral{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slogan img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.quienesSomos{
+    width: 300px;
+}
+
+.misionVision{
+    text-align: center;
+    padding: 40px;
+}
+
+.conteMision{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.caja{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f3e0d4;
+}
+
+.conteCreadoras{
+    text-align: center;
+    padding: 40px;
+}
+
+.creadoras{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.persona{
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f3e0d4;
+}

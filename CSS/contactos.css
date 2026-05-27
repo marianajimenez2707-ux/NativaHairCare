@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rouge+Script&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +12,7 @@ body {
     background-color: #f5f5f5;
 }
 
-header{
+header {
     width: 100%;
     height: 17vh;
     background-color: #c89f9cbb;
@@ -20,27 +21,29 @@ header{
     align-items: center;
 }
 
-header img{
-    width: 150px;
+header img {
+    width: 130px;
     height: 110px;
     border-radius: 5%;
 }
 
-header h1{
+header h1 {
     font-size: 65pt;
-    font-family: "Rouge Script", cursive;;
+    font-family: "Rouge Script", cursive;
+    ;
     color: rgb(77, 32, 24);
 }
 
-header a{
+header a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Quicksand", sans-serif;
     margin: 10px;
     font-weight: bold;
+    padding: 6px;
 }
 
-header a:hover{
+header a:hover {
     color: #C97C5D;
 }
 
@@ -51,12 +54,12 @@ header a:hover{
     border-radius: 10px;
     width: 400px;
     margin: 50px auto;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form .heading {
     font-size: 50px;
-    color:#582630;
+    color: #582630;
     margin-bottom: 20px;
     font-weight: bold;
     display: flex;
@@ -115,4 +118,64 @@ textarea {
     transform: scale(1.1);
     background-color: #582630;
     color: white;
+}
+
+footer {
+    width: 100vw;
+    height: 18vh;
+    background-color: rgb(204, 176, 141);
+}
+
+#redes {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#copywright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand", sans-serif;
+    font-size: 15pt;
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+#insta {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#tiktok {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 17px;  
+}
+
+#titulo {
+    padding-left: 40pt;
+}
+
+a:hover {
+    color: rgb(156, 101, 34);
+}
+
+a {
+    text-decoration: none;
+    font-size: 18pt;
+    color: rgb(226, 139, 104);
 }

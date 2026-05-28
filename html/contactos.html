@@ -30,9 +30,10 @@
     <div class="contact-form">
         <span class="heading">Contactanos</span>
 
-        <form>
+        <form id="contact-form">
+
             <label for="name">Nombre completo:</label>
-            <input type="text" id="name" required>
+            <input type="text" id="name" name="name" required>
 
             <label for="email">Correo electrónico:</label>
             <input type="email" id="email" name="email" required>
@@ -41,20 +42,75 @@
             <textarea id="message" name="message" required></textarea>
 
             <button type="submit">Enviar</button>
+
         </form>
     </div>
+
     <footer class="pie">
-        <div id="redes"> <a class="footer-item"
-                href="https://www.instagram.com/nativa.hair.care?igsh=MTh2eTEwdndkc2lrdQ=="><img
-                    src="../imagenes/instagramsinfondo.png" /> @nativa.hair.care</a>
-            <a class="footer-item" href="https://www.tiktok.com/@nativa.hair.care?_r=1&_t=ZS-96icawMxYPt"><img
-                    src="../imagenes/tiktoksinfondo.png" /> @nativa.hair.care</a>
-        </div>
-        <div id="copywright">
-            <p class="footer-item">© 2024 Nativa Hair Care. Todos los derechos reservados.</p>
+        <div id="redes">
+            <a id="insta"
+                href="https://www.instagram.com/nativa.hair.care?igsh=MTh2eTEwdndkc2lrdQ==">
+                <img src="../imagenes/instagramsinfondo.png" />
+                @nativa.hair.care
+            </a>
+
+            <a href="https://www.tiktok.com/@nativa.hair.care?_r=1&_t=ZS-96icawMxYPt">
+                <img id="tiktok" src="../imagenes/tiktoksinfondo.png" />
+                @nativa.hair.care
+            </a>
         </div>
 
+        <div id="copywright">
+            <p class="footer-item">
+                © 2024 Nativa Hair Care. Todos los derechos reservados.
+            </p>
+        </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+
+        // Inicializar EmailJS
+        emailjs.init("b8ce7r3tC1g8Zpwth");
+
+        // Obtener formulario
+        const form = document.getElementById("contact-form");
+
+        // Evento submit
+        form.addEventListener("submit", function (event) {
+
+            // Evita que la página se recargue
+            event.preventDefault();
+
+            // Enviar formulario
+            emailjs.sendForm(
+                "service_yitcxyg",
+                "template_xuwamum",
+                this
+            )
+
+            .then(() => {
+
+                alert("Mensaje enviado correctamente 😄");
+
+                // Limpiar formulario
+                form.reset();
+
+            })
+
+            .catch((error) => {
+
+                alert("Error al enviar el mensaje 😢");
+
+                console.log(error);
+
+            });
+
+        });
+
+    </script>
 
 </body>
 

@@ -1,8 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+header{
+    width: 100%;
+    height: 17vh;
+    background-color: #c89f9cbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+header img{
+    width: 150px;
+    height: 110px;
+    border-radius: 5%;
+}
+ 
+header h1{
+    font-size: 65pt;
+    font-family: "Rouge Script", cursive;;
+    color: rgb(77, 32, 24);
+}
+ 
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand", sans-serif;
+    margin: 10px;
+    font-weight: bold;
+}
+ 
+header a:hover{
+    color: #C97C5D;
+}
+
+#tituloproductos{
+    font-family: "Rouge Script", cursive;
+}
+
+h1{
+    font-family: "Rouge Script", cursive;
+}
+
+
 
 .productos{
     display: flex;
@@ -54,7 +100,7 @@ body{
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f3e0d4;
+    background-color: #ffffff;
 }
 
 .conteCreadoras{
@@ -72,5 +118,100 @@ body{
     width: 250px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f3e0d4;
+    background-color: #ffffff;
+
+}
+
+.misionVision{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.misionVision h1{
+    font-size: 55px;
+    color: #6d3540;
+    font-family: "Rouge Script", cursive;
+    margin-bottom: 40px;
+}
+
+.conteMision{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.caja{
+    width: 320px;
+}
+
+/* Parte naranja */
+.caja h2{
+    background-color: #C97C5D;
+    color: #6d3540;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: "Rouge Script", cursive;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Parte beige */
+.caja p{
+    background-color: #ead7c8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+
+
+/* ===== CREADORAS ===== */
+
+.conteCreadoras{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.conteCreadoras h1{
+    font-size: 55px;
+    color: #6d3540;
+    font-family: "Rouge Script", cursive;
+    margin-bottom: 40px;
+}
+
+.creadoras{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.persona{
+    width: 320px;
+}
+
+/* Nombre naranja */
+.persona h2{
+    background-color: #c97d5a;
+    color: #6d3540;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 30px;
+    font-family: "Rouge Script", cursive;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Texto beige */
+.persona p{
+    background-color: #ead7c8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }

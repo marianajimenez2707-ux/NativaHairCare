@@ -42,6 +42,11 @@ header a:hover{
 
 #tituloproductos{
     font-family: "Rouge Script", cursive;
+    font-size: 50pt;
+}
+
+ul{
+    font-size: 25pt;
 }
 
 h1{
@@ -59,7 +64,8 @@ h1{
 }
 
 .productos img{
-    width: 300px;
+    width: 550px;
+    height: 600px;
 }
 
 .informacionGeneral{
@@ -77,12 +83,27 @@ h1{
 }
 
 .slogan img{
-    width: 120px;
+    width: 350px;
+    height: 400px;
     border-radius: 50%;
 }
 
-.quienesSomos{
+.quienesSomos h1{
+    text-align: center;
+    background-color: #C97C5D;
+    color: #6d3540;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: "Rouge Script", cursive;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.quienesSomos p{
     width: 300px;
+    background-color: #EED7C5;
+    padding: 15pt;
+    border-radius: 10px;
 }
 
 .misionVision{
@@ -214,4 +235,36 @@ h1{
     font-size: 20px;
     line-height: 1.5;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+footer {
+    width: 100vw;
+    height: 18vh;
+    background-color: rgb(204, 176, 141);
+}
+
+#redes {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#copywright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand", sans-serif;
+    font-size: 15pt;
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }

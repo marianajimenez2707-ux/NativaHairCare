@@ -16,11 +16,13 @@ header{
     align-items: center;
 }
  
-header img{
-    width: 150px;
+
+header img {
+    width: 130px;
     height: 110px;
     border-radius: 5%;
 }
+
  
 header h1{
     font-size: 65pt;
@@ -194,7 +196,6 @@ h1{
     width: 320px;
 }
 
-/* Parte naranja */
 .caja h2{
     background-color: #C97C5D;
     color: #6d3540;
@@ -205,7 +206,6 @@ h1{
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
-/* Parte beige */
 .caja p{
     background-color: #ead7c8;
     padding: 20px;
@@ -215,10 +215,6 @@ h1{
     line-height: 1.5;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
-
-
-
-/* ===== CREADORAS ===== */
 
 .conteCreadoras{
     text-align: center;
@@ -243,7 +239,6 @@ h1{
     width: 320px;
 }
 
-/* Nombre naranja */
 .persona h2{
     background-color: #c97d5a;
     color: #6d3540;
@@ -254,7 +249,7 @@ h1{
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
-/* Texto beige */
+
 .persona p{
     background-color: #ead7c8;
     padding: 20px;
@@ -268,7 +263,7 @@ h1{
 footer {
     width: 100vw;
     height: 25vh;
-    background-color: rgb(204, 176, 141);
+    background-color: #c89f9cbb;
 }
 
 #redes {

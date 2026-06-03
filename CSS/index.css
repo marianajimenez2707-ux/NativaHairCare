@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     width: 100%;
     height: 17vh;
     background-color: #c89f9cbb;
@@ -15,7 +15,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
- 
+
 
 header img {
     width: 130px;
@@ -23,14 +23,15 @@ header img {
     border-radius: 5%;
 }
 
- 
-header h1{
+
+header h1 {
     font-size: 65pt;
-    font-family: "Rouge Script", cursive;;
+    font-family: "Rouge Script", cursive;
+    ;
     color: rgb(77, 32, 24);
 }
- 
-header a{
+
+header a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Quicksand", sans-serif;
@@ -38,28 +39,28 @@ header a{
     font-weight: bold;
     font-size: 13pt;
 }
- 
-header a:hover{
+
+header a:hover {
     color: #C97C5D;
 }
 
-#tituloproductos{
+#tituloproductos {
     font-family: "Rouge Script", cursive;
     font-size: 50pt;
 }
 
-ul{
+ul {
     font-size: 25pt;
     font-family: "Playfair Display", serif;
 }
 
-h1{
+h1 {
     font-family: "Rouge Script", cursive;
 }
 
 
 
-.productos{
+.productos {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,12 +68,12 @@ h1{
     padding: 40px;
 }
 
-.productos img{
+.productos img {
     width: 550px;
     height: 600px;
 }
 
-.informacionGeneral{
+.informacionGeneral {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,31 +81,31 @@ h1{
     padding: 40px;
 }
 
-.slogan{
+.slogan {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.slogan img{
+.slogan img {
     width: 100%;
     max-width: 400px;
     height: auto;
     border-radius: 50%;
 }
 
-.slogan p{
+.slogan p {
     font-family: "Playfair Display", serif;
     font-size: 25pt;
 }
 
-.slogan h1{
+.slogan h1 {
     font-family: "Rouge Script", cursive;
     font-size: 50pt;
 
 }
 
-.quienesSomos h1{
+.quienesSomos h1 {
     text-align: center;
     background-color: #C97C5D;
     color: #6d3540;
@@ -112,10 +113,10 @@ h1{
     border-radius: 12px;
     font-size: 35px;
     font-family: "Rouge Script", cursive;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.quienesSomos p{
+.quienesSomos p {
     width: 300px;
     background-color: #EED7C5;
     padding: 15pt;
@@ -124,12 +125,12 @@ h1{
     font-size: 15pt;
 }
 
-.misionVision{
+.misionVision {
     text-align: center;
     padding: 40px;
 }
 
-.misionVision p{
+.misionVision p {
     width: 300px;
     padding: 15pt;
     border-radius: 10px;
@@ -137,36 +138,36 @@ h1{
     font-size: 15pt;
 }
 
-.conteMision{
+.conteMision {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.caja{
+.caja {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
     background-color: #ffffff;
 }
 
-.conteCreadoras{
+.conteCreadoras {
     text-align: center;
     padding: 40px;
 }
 
-.creadoras{
+.creadoras {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.creadoras p{
+.creadoras p {
     border-radius: 10px;
     font-family: "Quicksand", sans-serif;
 }
 
-.persona{
+.persona {
     width: 250px;
     padding: 20px;
     border-radius: 10px;
@@ -174,91 +175,91 @@ h1{
 
 }
 
-.misionVision{
+.misionVision {
     text-align: center;
     margin-top: 50px;
 }
 
-.misionVision h1{
+.misionVision h1 {
     font-size: 55px;
     color: #6d3540;
     font-family: "Rouge Script", cursive;
     margin-bottom: 40px;
 }
 
-.conteMision{
+.conteMision {
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
 
-.caja{
+.caja {
     width: 320px;
 }
 
-.caja h2{
+.caja h2 {
     background-color: #C97C5D;
     color: #6d3540;
     padding: 15px;
     border-radius: 12px;
     font-size: 35px;
     font-family: "Rouge Script", cursive;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.caja p{
+.caja p {
     background-color: #ead7c8;
     padding: 20px;
     border-radius: 10px;
     margin-top: 10px;
     font-size: 20px;
     line-height: 1.5;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.conteCreadoras{
+.conteCreadoras {
     text-align: center;
     margin-top: 70px;
 }
 
-.conteCreadoras h1{
+.conteCreadoras h1 {
     font-size: 55px;
     color: #6d3540;
     font-family: "Rouge Script", cursive;
     margin-bottom: 40px;
 }
 
-.creadoras{
+.creadoras {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.persona{
+.persona {
     width: 320px;
 }
 
-.persona h2{
+.persona h2 {
     background-color: #c97d5a;
     color: #6d3540;
     padding: 15px;
     border-radius: 12px;
     font-size: 30px;
     font-family: "Rouge Script", cursive;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 
-.persona p{
+.persona p {
     background-color: #ead7c8;
     padding: 20px;
     border-radius: 10px;
     margin-top: 10px;
     font-size: 20px;
     line-height: 1.5;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -292,37 +293,38 @@ footer a {
     display: flex;
     align-items: center;
 }
+
 #tiktok {
     width: 50px;
     height: 50px;
     margin-right: 10px;
-    margin-left: 17px;  
+    margin-left: 17px;
 }
 
 /*Tablet*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    header{
+    header {
         flex-direction: column;
         height: auto;
         text-align: center;
     }
 
-    .productos{
+    .productos {
         flex-direction: column;
         text-align: center;
     }
 
-    .informacionGeneral{
+    .informacionGeneral {
         flex-direction: column;
         text-align: center;
     }
 
-    .slogan{
+    .slogan {
         flex-direction: column;
     }
 
-    .productos img{
+    .productos img {
         width: 100%;
         height: auto;
     }
@@ -330,34 +332,35 @@ footer a {
 
 
 /*Mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
-    header h1{
+    header h1 {
         font-size: 25px;
     }
 
-    header a{
-        display: block;   /* 👈 AQUÍ LO PEGASTE */
+    header a {
+        display: block;
+        /* 👈 AQUÍ LO PEGASTE */
         margin: 5px;
     }
 
-    .slogan p{
+    .slogan p {
         font-size: 18pt;
         text-align: center;
     }
 
     .quienesSomos p,
     .caja,
-    .persona{
+    .persona {
         width: 90%;
     }
 
     .misionVision h1,
-    .conteCreadoras h1{
+    .conteCreadoras h1 {
         font-size: 35px;
     }
 
-    ul{
+    ul {
         font-size: 18pt;
     }
 }

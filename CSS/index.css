@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     height: 17vh;
     background-color: #c89f9cbb;
     display: flex;
@@ -87,8 +87,9 @@ h1{
 }
 
 .slogan img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -261,7 +262,7 @@ h1{
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     background-color: #c89f9cbb;
 }
@@ -296,4 +297,67 @@ footer a {
     height: 50px;
     margin-right: 10px;
     margin-left: 17px;  
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .productos{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .informacionGeneral{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .slogan{
+        flex-direction: column;
+    }
+
+    .productos img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 480px){
+
+    header h1{
+        font-size: 35px;
+    }
+
+    header a{
+        display: block;   /* 👈 AQUÍ LO PEGASTE */
+        margin: 5px;
+    }
+
+    .slogan p{
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .quienesSomos p,
+    .caja,
+    .persona{
+        width: 90%;
+    }
+
+    .misionVision h1,
+    .conteCreadoras h1{
+        font-size: 35px;
+    }
+
+    ul{
+        font-size: 18pt;
+    }
 }

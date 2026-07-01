@@ -70,13 +70,13 @@ main{
 }
 
 .promo{
-   width: 35%;
+   width: 22%;
    background-color: #eadfcd;
-   padding: 20px;
+   padding: 12px;
    border-radius: 10px;
    text-align: center;
    font-family: "Quicksand", sans-serif;
-   font-size: 20px;
+   font-size: 16px;
 }
 .promo h2{
    font-size: 50px;
